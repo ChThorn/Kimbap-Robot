@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>53</y>
+      <width>1081</width>
+      <height>653</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTN_RESTART">
+    <property name="geometry">
+     <rect>
+      <x>117</x>
+      <y>976</y>
+      <width>85</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{font:12pt;
+								background-color: #3bd466;
+                            border-radius: 10px;
+                            border: 0px solid #595959;}</string>
+    </property>
+    <property name="text">
+     <string>RESTART</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LB_INPUT_STATE">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>780</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>INPUT</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="BTN_RESTART_SHADOW">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>980</y>
+      <width>85</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame { 
+   border: 0px solid #595959 ;
+   background-color: #B4B4B4;
+   border-radius:10px;
+} </string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="BTN_EXIT_SHADOW">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>980</y>
+      <width>85</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame { 
+   border: 0px solid #595959 ;
+   background-color: #B4B4B4;
+   border-radius:10px;
+} </string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTN_MINIMIZE">
+    <property name="geometry">
+     <rect>
+      <x>216</x>
+      <y>976</y>
+      <width>85</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{font:12pt;
+								background-color: #be36eb;
+                            border-radius: 10px;
+                            border: 0px solid #595959;}</string>
+    </property>
+    <property name="text">
+     <string>MINIMIZE</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>740</y>
+      <width>341</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="FRAME_DEVICE">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>345</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTN_EXIT">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>976</y>
+      <width>85</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{font:12pt;
+								background-color: #FF9999;
+                            border-radius: 10px;
+                            border: 0px solid #595959;}</string>
+    </property>
+    <property name="text">
+     <string>CLOSE</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="BTN_MINIMIZE_SHADOW">
+    <property name="geometry">
+     <rect>
+      <x>218</x>
+      <y>980</y>
+      <width>85</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame { 
+   border: 0px solid #595959 ;
+   background-color: #B4B4B4;
+   border-radius:10px;
+} </string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>920</y>
+      <width>341</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LB_STS">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>870</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position:center;</string>
+    </property>
+    <property name="text">
+     <string>*Import Notice:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MESSAGE_LB">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>870</y>
+      <width>601</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Please don't turn of the camera during the robot is operating!</string>
+    </property>
+   </widget>
+   <zorder>BTN_RESTART_SHADOW</zorder>
+   <zorder>BTN_MINIMIZE_SHADOW</zorder>
+   <zorder>frame</zorder>
+   <zorder>BTN_RESTART</zorder>
+   <zorder>LB_INPUT_STATE</zorder>
+   <zorder>BTN_EXIT_SHADOW</zorder>
+   <zorder>BTN_MINIMIZE</zorder>
+   <zorder>line</zorder>
+   <zorder>FRAME_DEVICE</zorder>
+   <zorder>BTN_EXIT</zorder>
+   <zorder>line_2</zorder>
+   <zorder>LB_STS</zorder>
+   <zorder>MESSAGE_LB</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

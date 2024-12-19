@@ -1,0 +1,6 @@
+*.weights
+*.onnx
+build/SETTING/yolov3.weights
+build/SETTING/*.weights
+*.tgz
+*.tar.gz
